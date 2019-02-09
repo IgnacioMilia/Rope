@@ -11,6 +11,7 @@ import dibujables.Sapo;
 
 public class Frame extends JFrame implements Runnable{
 	private static final long serialVersionUID = 1L;
+	
 	private BufferStrategy buffer;
 	private Dimension frameSize;
 	private Graphics2D g;
